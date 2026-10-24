@@ -1,10 +1,10 @@
 name: 'Hello World'
 description: 'Greet someone'
 
-
 runs:
   using: 'composite'
 
   steps:
-    - run: echo "hello composite"
+    - shell: bash
+      run: echo "hello composite"
 
