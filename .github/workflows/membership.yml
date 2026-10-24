@@ -8,14 +8,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - name: Run security scan
         uses: aquasecurity/trivy-action@master
         with:
           scan-type: 'fs'
           ignore-unfixed: true
           severity: 'CRITICAL,HIGH'
-      - uses: ./.github/actions/hello-composite-action
+      - uses: ./.github/actions/hello-composite
 
   build:
     needs: security
