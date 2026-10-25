@@ -6,5 +6,5 @@ metadata:
     github.com/project-slug: wikimatze/carved-rock-fitness-gym
 spec:
   type: other
-  lifecycle: daily
+  lifecycle: today
   owner: guests
