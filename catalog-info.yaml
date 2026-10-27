@@ -13,6 +13,6 @@ spec:
   dependsOn:
     - resource:postgres-payments-db
   dependencyOf:
-    - component: default/artist-web-lookup
+    - component:default/artist-web-lookup
   providesApis:
     - artist-api
