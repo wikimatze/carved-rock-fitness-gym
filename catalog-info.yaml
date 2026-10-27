@@ -2,9 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: carved-rock-fitness-gym
+  description: Handles gym things
   annotations:
     github.com/project-slug: wikimatze/carved-rock-fitness-gym
 spec:
   type: other
   lifecycle: yesterday
-  owner: guests
+  owner: guest-squad
