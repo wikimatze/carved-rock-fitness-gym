@@ -6,6 +6,13 @@ metadata:
   annotations:
     github.com/project-slug: wikimatze/carved-rock-fitness-gym
 spec:
-  type: other
-  lifecycle: yesterday
+  type: service
+  lifecycle: production
   owner: guest-squad
+  system: checkout-system
+  dependsOn:
+    - resource:postgres-payments-db
+  dependencyOf:
+    - component: default/artist-web-lookup
+  providesApis:
+    - artist-api
