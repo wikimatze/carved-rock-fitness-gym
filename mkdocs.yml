@@ -2,7 +2,7 @@ site_name: Carved Gym documentation
 site_description: Technical doc for this fancy service
 
 nav:
-  - Home: index.md
+  - Homepage: index.md
 
 plugins:
   - techdocs-core
