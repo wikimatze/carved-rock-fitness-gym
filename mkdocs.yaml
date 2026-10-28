@@ -1,0 +1,7 @@
+site_name: Carved Gym documentation
+site_description: Technical doc for this fancy service
+
+nav:
+
+plugins:
+  - techdoc-core
