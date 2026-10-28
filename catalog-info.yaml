@@ -5,6 +5,9 @@ metadata:
   description: Handles gym things
   annotations:
     github.com/project-slug: wikimatze/carved-rock-fitness-gym
+    # hier passiert die Magic
+    backstage.io/techdocs-ref: dir:.
+
 spec:
   type: service
   lifecycle: production
